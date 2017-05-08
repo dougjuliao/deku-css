@@ -1,0 +1,132 @@
+#container {
+	background: #ededed;
+    	width: 100%;
+    	height: 100%;
+    	position: absolute;
+}
+.deku {
+    	background: #fff;
+    	height: 325px;
+    	margin: 5px auto;
+    	position: relative;
+    	width: 240px;
+}
+/*DEFAULT EYES*/
+.pupila-l,
+.pupila-r{
+	background: #21A162;
+	border-radius: 31%;
+	border: 1px solid #000;
+	box-shadow: inset 4px 10px 0px #000;
+	height: 19px;
+	position: absolute;
+	top: 125px;
+	width: 10px;
+	z-index:3;
+}
+
+.pupila-l-small-ligth,
+.pupila-r-small-ligth{
+    background: #ffffff;
+    border-radius: 31%;
+    height: 4px;
+    position: absolute;
+    width: 4px;
+    z-index:3;
+}
+
+.pupila-l-big-ligth,
+.pupila-r-big-ligth{
+    background: #ffffff;
+    border-radius: 46%;
+    height: 11px;
+    position: absolute;
+    width: 6px;
+    z-index:3;
+}
+
+.globo-l,
+.globo-r	{
+	background:#fff;
+	border-radius: 37%;
+	height: 49px;
+	width: 52px;
+	position: absolute;
+	top: 114px;
+	z-index:2;
+}
+
+/*LEFT EYE*/
+.pupila-l {
+	left: 85px;
+	border-top-left-radius: 45%;
+	border-top-right-radius: 34%;
+	border-bottom-left-radius: 35%;
+	border-bottom-right-radius: 44%;
+}
+.pupila-l-small-ligth {
+    left: 92px;
+    top: 129px;
+}
+.pupila-l-big-ligth {
+    left: 83px;
+    transform: rotate(10deg);
+    top: 132px;
+}
+.globo-l{
+	left: 60px;
+	box-shadow: -2px -1px 0px 1px #000;
+	border-top-left-radius: 44%;
+	border-top-right-radius: 50%;
+	border-bottom-left-radius: 40%;
+	border-bottom-right-radius: 49%;
+	transform: rotate(-6deg);
+}
+/*RIGHT EYE */
+.pupila-r {
+	right: 85px;
+	border-top-left-radius: 45%;
+	border-top-right-radius: 34%;
+	border-bottom-left-radius: 35%;
+	border-bottom-right-radius: 44%;
+}
+.pupila-r-small-ligth {
+    right: 86px;
+    top: 129px;
+}
+.pupila-r-big-ligth {
+ 	right: 93px;
+ 	transform: rotate(7deg);
+ 	top: 132px;
+}
+.globo-r{
+	right: 60px;
+	box-shadow: 2px -1px 0px 1px #000;
+	border-top-right-radius: 44%;
+	border-top-left-radius: 50%;
+	border-bottom-right-radius: 40%;
+	border-bottom-left-radius: 49%;
+	transform: rotate(7deg);
+}
+
+/* NOSE */
+.nose{
+	width: 2px;
+	height: 6px;
+	background: #000;
+	position:absolute;
+	top: 160px;
+	left: 110px;
+	box-shadow: 0px -4px 1px 0px #000, 1px -3px 1px 0px #000, 1px -1px 1px 0px #000, 0px 0px 1px 0px #000;
+	border-radius: 43%;
+}
+
+/* MOUTH */
+.mouth{
+	width: 1px;
+	height:0;
+	box-shadow: -5px -2.8px 0px 0.4px #000, -4.9px -2px 0px 0.4px #000, -4.5px -1.6px 0px 0.4px #000, -2px -1px 0px 0.4px #000, -1px -1px 0px 0.4px #000, -4px -1px 0px 0.4px #000, 0px -1px 0px 0.4px #000, 1px -1px 0px 0.4px #000, 2px -1px 0px 0.4px #000, 3px -1px 0px 0.4px #000, 4px -1px 0px 0.4px #000, 5px -1px 0px 0.4px #000, 6px -1px 0px 0.4px #000, 7px -1px 0px 0.4px #000, 8px -1px 0px 0.4px #000, 9px -1px 0px 0.4px #000, 11px -1px 0px 0.4px #000, 14px -1px 0px 0.4px #000, 32px -1px 0px 0.4px #000, 33px -1px 0px 0.4px #000, 34px -1px 0px 0.4px #000, 35px -1px 0px 0.4px #000, 36px -1px 0px 0.4px #000, 37px -1px 0px 0.4px #000, 38px -1px 0px 0.4px #000, 39px -1.3px 0px 0.4px #000, 39.8px -1.9px 0px 0.4px #000, 40.3px -2.8px 0px 0.4px #000;
+	top: 192px;
+	left: 97px;
+	position: absolute;
+}
