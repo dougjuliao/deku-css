@@ -10,6 +10,7 @@
     	margin: 5px auto;
     	position: relative;
     	width: 240px;
+    	overflow: hidden;
 }
 /*DEFAULT EYES*/
 .pupila-l,
@@ -48,9 +49,8 @@
 .globo-l,
 .globo-r	{
 	background:#fff;
-	border-radius: 37%;
 	height: 49px;
-	width: 52px;
+	width: 50px;
 	position: absolute;
 	top: 114px;
 	z-index:3;
@@ -117,7 +117,7 @@
 	background: #000;
 	position:absolute;
 	top: 160px;
-	left: 110px;
+	left: 113px;
 	box-shadow: 0px -4px 1px 0px #000,
 	1px -3px 1px 0px #000,
 	1px -1px 1px 0px #000,
@@ -361,4 +361,29 @@
 .ear-r .ear-4{}
 
 /* HAIR */
-.hair{}
+.hair-black{
+    width: 34px;
+    height: 10px;
+    background: #000;
+    left: 3px;
+    top: 137px;
+    position: absolute;
+    z-index: 5;
+    box-shadow: -11px 20px 1px 1px #000, -11px 10px 1px 1px #000, -1px -7px 1px 1px #000, -2px -15px 1px 1px #000;
+}
+.hair-black:before{
+	content:'';
+	width:2px;
+	height:2px;
+	background:#000;
+	position: absolute;
+	top: 10px;
+	left: 23px;
+	box-shadow: -22px 17px 0px 4px #000, -18px 17px 0px 4px #000, -15px 18px 0px 4px #000, -13px 19px 0px 4px #000, -9px 20px 0px 4px #000, -7px 21px 0px 4px #000, -6px 22px 0px 4px #000, -5px 23px 0px 4px #000, -4px 25px 0px 4px #000, -4px 34px 0px 3px #000, -9px 34px 0px 1px #000, -13px 35px 0px 1px #000, -19px 36px 0px 1px #000, -22px 37px 0px 1px #000, -19px 38px 0px 1px #000, -14px 37px 0px 2px #000, -9px 38px 0px 2px #000, -4px 39px 0px 2px #000, 2px 39px 0px 2px #000, 6px 39px 0px 1.4px #000, 10px 39px 0px 1.4px #000, 14px 40px 0px 1.4px #000, 24px 41px 0px 0.4px #000, 22px 41px 0px 0.4px #000, 20px 41px 0px 0.4px #000, 18px 41px 0px 0.4px #000, 16px 40px 0px 0.4px #000, 13px 39px 0px 1px #000, 10px 37px 0px 1px #000, 8px 36px 0px 1px #000, 7px 34px 0px 1px #000, 3px 33px 0px 3px #000, 1px 30px 0px 3px #000, -1px 28px 0px 3px #000, 0px 24px 0px 1px #000, -1px 23px 0px 1px #000, -2px 19px 0px 1px #000, 0px 1px 1px 1px #000, 2px 0px 1px 1px #000, 5px -1px 1px 1px #000, 8px -1px 1px 1px #000, 10px -1px 1px 1px #000;
+}
+.hair-black:after{ content:'';
+	width:2px;
+	height:2px;
+	background:#000;
+ }
+.hair-green{}
